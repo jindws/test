@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moiamoia/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moiamoia/test/issues"
+  },
+  "homepage": "https://github.com/moiamoia/test#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "nodemon": "^1.18.3"
+  }
+}
