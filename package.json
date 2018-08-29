@@ -8,7 +8,7 @@
     "pm2": "pm2 start index.js",
     "pm2:restart": "pm2 restart index.js",
     "pm2:stop": "pm2 stop index.js",
-    "for": "forever start index.js",
+    "for": "forever -p ./ -l ./logs/access.log -e ./logs/error.log -o ./logs/out.log -a --pidFile forever.pid start index.js",
     "for:stop": "forever stop index.js"
   },
   "repository": {
