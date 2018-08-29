@@ -14,7 +14,8 @@ COPY . /home/Service
 
  # 安装项目依赖包
  # RUN npm install
- RUN npm i
+ RUN npm i yarn -g
+ RUN yarn
 
  # 配置环境变量
  #ENV HOST 0.0.0.0
@@ -23,4 +24,4 @@ COPY . /home/Service
  # 容器对外暴露的端口号
  EXPOSE 8000
 
- CMD ["npm","run","pm2"]
+ CMD ["yarn","pm2"]
