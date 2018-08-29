@@ -19,7 +19,7 @@ COPY . /home/Service
 
  # 配置环境变量
  #ENV HOST 0.0.0.0
- #ENV PORT 8000
+ #ENV PORT 3001
 
  # 容器对外暴露的端口号
  EXPOSE 8000
