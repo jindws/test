@@ -11,4 +11,4 @@
  # 容器对外暴露的端口号
  EXPOSE 8000
 
- CMD ["yarn","pm2"]
+ CMD ["node","src/index.js"]
