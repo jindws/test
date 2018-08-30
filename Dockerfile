@@ -1,7 +1,7 @@
  FROM node:10.9.0
 
- #ADD . /src
- #RUN cd /src;
+ ADD . /src
+ RUN cd /src;
  Run npm i yarn -g;yarn
 
  # 配置环境变量
