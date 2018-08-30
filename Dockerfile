@@ -2,7 +2,8 @@
 
  ADD . /src
  RUN cd /src;
- RUN cd /src; npm install
+ RUN npm i yarn -g
+ RUN yarn
 
  # 配置环境变量
  #ENV HOST 0.0.0.0
